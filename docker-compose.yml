@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+    api:
+        build: . 
+        entrypoint : CompileDaemon -log-prefix=false -build="go build ./project/src/" -command="./src"
+        ports:
+            - 9000:5000
+        volumes:
+            - ./:/go/src/golang
