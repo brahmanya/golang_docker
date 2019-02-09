@@ -12,3 +12,12 @@ Execution Procedure
 $ docker-compose build
 $ docker-compose up
 ```
+Get the server ready to use. 
+Browse as :
+```sh
+http://localhost:9000
+```
+The server is ready. 
+Update the codes in the project folder and refresh it in browser. 
+
+Good Luck for development with GOLang.
